@@ -1,0 +1,2 @@
+# JAVA-BASE-TYPE-OF-CLASS-WITH-METHOD
+java 八大基本数据类型及其方法
