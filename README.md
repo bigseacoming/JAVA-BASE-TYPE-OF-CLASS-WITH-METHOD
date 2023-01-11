@@ -64,5 +64,42 @@ String s=by.toString();
 byte s=1;
 int i = Byte.hashCode(s);
 ```
+### Short
++ compareTo(Short argument)
+```java
+/** compare two Byte objects numerically
+ * @param anotherByte
+ * @return the value 0 if this is equal to argument Byte,the value less than 0 if this 
+ * numerically less than argument Byte,the value greater than 0 if this numerically is greater than
+ * argument Byte
+ */
+Short by=1;
+Short by2=2;
+by.compareTo(by2);
+```
+
++ doubleValue() intValue() longValue() floatValue() shortValue() byteValue()
+```java
+/** @return the value of this Short as a double after widening primitive conversion.
+ */
+Short short=1;
+Double d=short.doubleValue();
+```
++ toString()
+```java
+/** @return a String object represneting this Short's value
+ */
+Short by=1;
+String s=by.toString();
+```
++ static int hashCode(short value)
+```java
+/**
+ * @return a hash code for a byte value
+ */
+short s=1;
+int i = Short.hashCode(s);
+```
+
 
 
