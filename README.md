@@ -64,6 +64,33 @@ String s=by.toString();
 byte s=1;
 int i = Byte.hashCode(s);
 ```
+### Boolean
++ booleanValue()
+```java
+/**
+ * @return return the value of Boolean object as a boolean primitive
+ */
+Boolean b=true;
+b.booleanValue()//true
+```
++ Boolean.parseBoolean()
+```java
+/**
+ * parse the argument value as a boolean
+ */
+```
++ valueOf()
+```java
+/**
+ * @return a Boolean instance representing the boolean value
+ */
+```
++ getBoolean()
+```java
+/**
+ * @return return true if and only if the system property named by argument exist and is equal to 
+ */
+```
 ### Short
 + compareTo(Short argument)
 ```java
@@ -100,6 +127,7 @@ String s=by.toString();
 short s=1;
 int i = Short.hashCode(s);
 ```
+
 
 
 
