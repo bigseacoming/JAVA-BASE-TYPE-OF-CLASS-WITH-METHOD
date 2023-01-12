@@ -127,7 +127,69 @@ String s=by.toString();
 short s=1;
 int i = Short.hashCode(s);
 ```
-
+### Character
++ static isDigit(char ch)
+```java
+/**
+ * determines the specified character is a digit
+ */
+Character.isDigit(char)
+```
++ static isDefined(char ch)
+```java
+/**
+ * determines if a char is defined in unicode
+ */
+Character.isDefined(char)
+```
++ static isLetter(Char char)
+```java
+/**
+ * Determines if the specified character is a letter
+ */
+Character.isLetter(char)
+```
++ static isLetterOrDigit(Char char)
+```java
+/**
+ * Determines if the specified character is a letter or a digit
+ */
+Character.isLetterOrDigit(char)
+```
++ static isJavaIdentifierStart(Char char)
+```java
+/**
+ * Determines the specified character is permissible as first character in a java identifier
+ */
+Character.isJavaIdentifierStart(char)
+```
++ static toLowerCase(Char char)
+```java
+/**
+ * Convers the specified character to a lowercase using case mapping information form the unicodeData file
+ */
+Character.toLowerCase(char)
+```
++ static toUpperCase(Char char)
+```java
+/**
+ * Converts the specified character to a uppercase using case mapping from the unicodeData file
+ * 
+ */
+Character.toUpperCase(char)
+```
++ static isSpaceChar(Char char)
+```java
+/**
+ * Determines the specified character is a space character
+ */
+```
++ static isWhitespace(Char char)
+```java
+/**
+ * Determines the gived argument is a white character
+ */
+```
 
 
 
