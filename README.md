@@ -190,6 +190,63 @@ Character.toUpperCase(char)
  * Determines the gived argument is a white character
  */
 ```
+### Integer
++ static Integer.parseInt(String,startIndex, endIndex, radix);
+```java
+/**
+ * parse Charsequence  as  a signed integer in the specified raidx 
+ * begin at the startIndex and end at the endIndex -1
+ */
 
+```
++ static decode(String str)
+```java
+/**
+ * Converts str to integer according to different form of radix.
+ */
+```
++ static getInteger(String str)
+```java
+/**
+ * Determines the integer value of the system property with the specified str name
+ */
+```
++ static decode(int i)
+```java
+/**
+ * @return the number of one-bits in the two's complement binary representation. 
+ */
+```
++ static max(int a ,int b)
+```java
+/**
+ * compare argument a with argument b ,return the greater one
+ * 
+ */
+```
++ static min(int a ,int b)
+```java
+/**
+ * compare argument a with argument b ,return the lower one
+ * 
+ */
+```
+### Float
++ parseFloat()
++ valueOf()
++ max()
++ min()
++ compareTo()
 
-
+### Long
++ parseLong()
++ valueOf()
++ max()
++ min()
++ compareTo()
+### Double
++ parseDouble()
++ valueOf()
++ max()
++ min()
++ compareTo()
